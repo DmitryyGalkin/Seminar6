@@ -44,7 +44,7 @@ while el < 241:
     el += 1
 print(my_list)
 
-# """Использовал LC"""
+# """Использовал LC время обработки уменьшилась"""
 lc_list = [el for el in range(20, 241) if not el % 20 or not el % 21]
 print(lc_list)
 print(timeit("my_list", globals=globals(), number=100000))
